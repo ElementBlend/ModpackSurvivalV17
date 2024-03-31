@@ -1,0 +1,17 @@
+{
+    "name": "Getting Started",
+    "icon": "minecraft:log",
+    "category": "gameplay_tips",
+	"sortnum": 0,
+	"priority": true,
+    "pages": [
+	    {
+        "type": "text",
+        "text": "• Along with this book, you will receive the Akashic Tome, preloaded with all of the mod guide books. Open and choose a guide book to read, then simply point it at the air and left-click to reset!"
+		},
+        {
+            "type": "image",
+			"images": ["the1122pack:textures/book/modpack_logo.png"]
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+[submodule "src_original"]
+	path = src_original
+	url = https://github.com/xJon/The-1.12.2-Pack.git
