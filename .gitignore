@@ -30,13 +30,17 @@
 /config/splash.properties
 /config/jei/bookmarks.ini
 /config/jei/worldSettings.cfg
+/config/tinker_ore_dict_melting_cache.dat
+/config/time.history
 /ESM/
 /local/ftbchunks/data/
+/mystcraft/
 /prestige/
 /reports/
 /simplebackups/
 /twitchcrumbs-cache/
 /tv-cache/
+/vintagefix/
 /voxelmap/cache/
 .curseclient
 BotaniaVars.dat

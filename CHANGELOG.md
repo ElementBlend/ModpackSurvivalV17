@@ -8,3 +8,32 @@ Total Mods: xxx
 **Change**
 
 - Initial release
+- Added some vehicle packs
+
+**Updated Resourcepack**
+
+- Sonomagy TC6
+
+**Added Mods**
+
+- ido (1.13 Swim)
+- Immersive Vehicles
+- ModernWarfareCubed
+- RedCore
+
+**Updated Mods**
+
+- AE2UnofficialExtendedLife
+- Binnie's Mods Patched
+- CensoredASM
+- Controlling
+- ConfigAnytime
+- CraftTweaker
+- LootTweaker
+- EntityCulling
+- ICBM Classic
+- IC2 Patcher
+- MixinBootstrap
+- MoreToolMats
+- Serializationisbad
+- ThaumTweaks
