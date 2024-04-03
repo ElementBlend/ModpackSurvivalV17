@@ -1,9 +1,9 @@
 # Modpack Survival V17 Changelog
 
-## 17.0
+## 17.0 - Preview
 
 Forge Version: 1.12.2-14.23.5.2860  
-Total Mods: xxx
+Total Mods: 355
 
 **Change**
 
@@ -16,7 +16,7 @@ Total Mods: xxx
 
 **Added Mods**
 
-- ido (1.13 Swim)
+- CraftPresence
 - Immersive Vehicles
 - ModernWarfareCubed
 - RedCore
@@ -24,16 +24,21 @@ Total Mods: xxx
 **Updated Mods**
 
 - AE2UnofficialExtendedLife
+- Aqua Acrobatics
 - Binnie's Mods Patched
 - CensoredASM
 - Controlling
 - ConfigAnytime
 - CraftTweaker
 - LootTweaker
+- Logistics Pipes
 - EntityCulling
 - ICBM Classic
 - IC2 Patcher
 - MixinBootstrap
+- Modern Warfare Cubed
 - MoreToolMats
 - Serializationisbad
+- Sledgehammer
 - ThaumTweaks
+- Thaumic Wonders
