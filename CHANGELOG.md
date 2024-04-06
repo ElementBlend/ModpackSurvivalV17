@@ -16,7 +16,9 @@ Total Mods: 355
 
 **Added Mods**
 
+- Carryon
 - CraftPresence
+- DimensionalDoors
 - Immersive Vehicles
 - ModernWarfareCubed
 - RedCore
