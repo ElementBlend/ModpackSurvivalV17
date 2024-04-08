@@ -135,11 +135,6 @@
     "showOnHud": false,
     "currentKey": 0
   },
-  "module.powersuits.aurameter.name": {
-    "dataName": "aurameter",
-    "showOnHud": false,
-    "currentKey": 0
-  },
   "module.powersuits.madModule.name": {
     "dataName": "madModule",
     "showOnHud": false,

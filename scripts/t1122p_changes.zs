@@ -122,9 +122,6 @@ recipes.removeByRecipeName("minecraft:red_wool");
 recipes.removeByRecipeName("minecraft:black_wool");
 recipes.removeByRecipeName("minecraft:purple_shulker_box");
 
-// Fix seed oil compatibility (alongside UniQ)
-mods.thermalexpansion.CompressionDynamo.addFuel(<liquid:seed.oil>, 80000);
-
 // Add Yellorium casting & melting compatibility
 mods.tconstruct.Casting.addTableRecipe(<bigreactors:ingotyellorium>, <tconstruct:cast_custom:0>, <liquid:yellorium>, 144);
 mods.tconstruct.Casting.addBasinRecipe(<bigreactors:blockyellorium>, null, <liquid:yellorium>, 1296);

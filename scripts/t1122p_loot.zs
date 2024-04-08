@@ -38,9 +38,6 @@ mineshaft.removePool("growthcraft_grapes:loot_table_simple_dungeon");
 val mineshaftPoolMain = mineshaft.getPool("main");
 val mineshaftPool1 = mineshaft.getPool("pool1");
 val mineshaftPool2 = mineshaft.getPool("pool2");
-val mineshaftPoolForestryFactoryItems = mineshaft.getPool("forestry_factory_items");
-val mineshaftPoolForestryStorageItems = mineshaft.getPool("forestry_storage_items");
-val mineshaftPoolForestryApicultureBees = mineshaft.getPool("forestry_apiculture_bees");
 val mineshaftPoolEnderIO = mineshaft.getPool("Ender IO");
 val mineshaftPoolRailcraftResources = mineshaft.getPool("railcraft_resources");
 val mineshaftPoolRailcraftCarts = mineshaft.getPool("railcraft_carts");
@@ -68,9 +65,6 @@ mineshaftEnderIOPool.removeEntry("enderio:item_material:9");
 
 # Remove empty mineshaft loots. This real estate is worth too much
 mineshaftPoolMain.removeEntry("empty");
-mineshaftPoolForestryFactoryItems.removeEntry("empty");
-mineshaftPoolForestryStorageItems.removeEntry("empty");
-mineshaftPoolForestryApicultureBees.removeEntry("empty");
 
 // Remove more IC2 loot as it is mostly duplicates
 LootTweaker.getTable("minecraft:chests/simple_dungeon").removePool("ic2");
