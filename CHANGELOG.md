@@ -1,9 +1,9 @@
 # Modpack Survival V17 Changelog
 
-## 17.0 - RC2
+## 17.0
 
 Forge Version: 1.12.2-14.23.5.2860  
-Total Mods: 301
+Total Mods: 306
 
 **Change**
 
@@ -15,11 +15,14 @@ Total Mods: 301
 
 - ActuallyAdditions
 - Astral Sorcery
+- Better builder Wands
 - Carryon
 - Clumps
 - CraftPresence
 - DimensionalDoors
+- GroovyScript
 - Immersive Vehicles
+- Journeymap
 - LagGoggles
 - Mahoutsukai
 - ModernWarfareCubed
@@ -27,7 +30,10 @@ Total Mods: 301
 - Mystical World
 - RedCore
 - Roots
+- SimpleZoom
 - TickCentral
+- TombManyGraves
+- Yet Another Recipe Conflict Fixer
 
 **Updated Mods**
 
@@ -52,7 +58,7 @@ Total Mods: 301
 
 - Aroma1997 Dimensional World
 - Aroma1997Core
-- Binnie's Mods Patched
+- Binnies Mods Patched
 - ChatFlow
 - ChunkGenLimiter
 - ComputerCraft
@@ -84,6 +90,8 @@ Total Mods: 301
 - Mystcraft
 - Mystcraft / OC Integration
 - mystcraft-info
+- NoMoreRecipeConflict
+- NoRecipeBook
 - Opencomputers
 - Opencomputers ICBM-Classic Addon
 - Pages
@@ -106,4 +114,6 @@ Total Mods: 301
 - UNU Civilian Vehicles
 - UNU Military Vehicles
 - UNU Parts Pack
+- VoxelMap
+- VoxelMap Fixes
 - Whoosh
