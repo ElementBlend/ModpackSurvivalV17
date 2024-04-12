@@ -1,5 +1,14 @@
 # Modpack Survival V17 Changelog
 
+## 17.1 - RC1
+
+Forge Version: 1.12.2-14.23.5.2860  
+Total Mods: 306
+
+**Change**
+
+- Add back 4 missing ingot from MWC
+
 ## 17.0
 
 Forge Version: 1.12.2-14.23.5.2860  
