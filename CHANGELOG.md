@@ -8,6 +8,7 @@ Total Mods: 306
 **Change**
 
 - Add back 4 missing ingot from MWC
+- Fix Black Quartz not being generated
 
 ## 17.0
 
