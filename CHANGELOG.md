@@ -3,9 +3,9 @@
 ## 17.1 - RC1
 
 Forge Version: 1.12.2-14.23.5.2860  
-Total Mods: 306
+Total Mods: 278
 
-**Change**
+**Changes**
 
 - Add back 4 missing ingot from MWC
 - Fix Black Quartz not being generated
@@ -14,12 +14,49 @@ Total Mods: 306
 - Optimize some configs to improve player game experience
 - Adjust some config settings for fixing bugs
 
+**Updated Mods**
+
+- CraftPresence
+- Growthcraft
+- HadEnoughItems
+- IC2Patcher
+- InventoryTweaks
+- Journeymap
+- Mekanism
+- MekanismGenerators
+- MekanismTools
+- Mixinbooter
+- QuarkRotN
+- Sledgehammer
+
+**Downgraded Mod**
+
+- RedCore
+
+**Removed Mods**
+
+- AmbientSounds
+- ClientTweaks
+- Computronics
+- CreativeCore
+- DynamicLight
+- Exchangers
+- GooglyEyes
+- GroovyScript
+- LetSleepingDogsLie
+- ModularPowersuits
+- OpenEye
+- ReAuth
+- SnowRealMagic
+- Torchmaster
+- WR-CBE
+
 ## 17.0
 
 Forge Version: 1.12.2-14.23.5.2860  
 Total Mods: 306
 
-**Change**
+**Changes**
 
 - Initial release
 - Added some vehicle packs

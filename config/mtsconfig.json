@@ -318,6 +318,9 @@
         "lava": 1.0,
         "gasoline": 1.0,
         "ethanol": 0.85
+      },
+      "electric": {
+        "lava": 1.0
       }
     },
     "lastLoadedFluids": {
@@ -405,8 +408,8 @@
       "fuel_gaseous_heat_2": "Gaseous Fuel (§cSearing§r)",
       "mana": "Primal Mana",
       "atmosphericgases": "Atmospheric Gases",
-      "fluid_booze_green_portwine": "Green Port Wine",
       "fluid_booze_kumis_kumis_extended": "Kumis Extended",
+      "fluid_booze_green_portwine": "Green Port Wine",
       "liquidethene": "Liquid Ethylene",
       "fuel_gaseous_heat_1": "Gaseous Fuel (§6Hot§r)",
       "if.ore_fluid_fermented": "Fermented Ore Meat",
@@ -516,8 +519,8 @@
       "molten_reinforced_pink_slime": "Molten Reinforced Pink Slime",
       "zinc": "Molten Zinc",
       "nitrogen_ice_fluid": "Liquid Nitrogen Ice",
-      "fluid_booze_purple_wine_potent": "Purple Grape Wine Potent",
       "fluid_cheese_appenzeller": "Appenzeller Cheese",
+      "fluid_booze_purple_wine_potent": "Purple Grape Wine Potent",
       "oil_heat_1": "Oil (§6Hot§r)",
       "fluid_booze_mead_extended": "Extended Mead",
       "biofuel": "Biofuel",
@@ -582,8 +585,8 @@
       "fuel_mixed_heavy_heat_2": "Mixed Heavy Fuels (§cSearing§r)",
       "fuel_mixed_heavy_heat_1": "Mixed Heavy Fuels (§6Hot§r)",
       "fluid_booze_lager_potent": "Lager",
-      "fluid_booze_apple_cider_intoxicated": "Apple Cider",
       "fluid_booze_hopale_hyperextended": "Ale",
+      "fluid_booze_apple_cider_intoxicated": "Apple Cider",
       "experience": "Essence of Knowledge",
       "fluid_booze_mead_potent": "Potent Mead",
       "osgloglas": "Molten Osgloglas",
@@ -618,9 +621,9 @@
       "fluid_booze_green_wine": "Green Grape Wine",
       "sulfuricacid": "Sulfuric Acid",
       "charset_potion_lingering": "Lingering Potion",
-      "fluid_booze_apple_cider_potentextended": "Apple Cider",
       "fluid_booze_mead_fermented": "Mead",
       "fluid_booze_mead_intoxicated": "Intoxicated Mead",
+      "fluid_booze_apple_cider_potentextended": "Apple Cider",
       "fluid_booze_sake_magical": "Sake",
       "fluid_skim_milk": "Skim Milk",
       "mithril": "Molten Mithril",

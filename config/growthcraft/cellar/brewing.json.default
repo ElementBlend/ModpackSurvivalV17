@@ -67,15 +67,79 @@
     },
     {
       "comment": "",
-      "item": null,
+      "item": {
+        "ore": "cropWheat",
+        "comment": "",
+        "mod_id": null,
+        "name": null,
+        "amount": 1,
+        "meta": 32767
+      },
       "input_fluid": {
-        "comment": "Apple Cider",
-        "name": "fluid_booze_apple_cider_fermented",
+        "comment": "Water",
+        "name": "water",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Apple Cider",
-        "name": "fluid_booze_apple_cider_poisoned",
+        "comment": "Ale Wort",
+        "name": "fluid_booze_hopale_young",
+        "amount": 40
+      },
+      "residue": {
+        "pomace": 0.3,
+        "ore": null,
+        "comment": "Bone Meal",
+        "mod_id": "minecraft",
+        "name": "dye",
+        "amount": 1,
+        "meta": 15
+      },
+      "requiresLid": false,
+      "time": 1200
+    },
+    {
+      "comment": "",
+      "item": {
+        "ore": "cropHops",
+        "comment": "",
+        "mod_id": null,
+        "name": null,
+        "amount": 1,
+        "meta": 32767
+      },
+      "input_fluid": {
+        "comment": "Ale Wort",
+        "name": "fluid_booze_hopale_young",
+        "amount": 40
+      },
+      "output_fluid": {
+        "comment": "Ale Wort",
+        "name": "fluid_booze_hopale_unhopped",
+        "amount": 40
+      },
+      "residue": {
+        "pomace": 0.0,
+        "ore": null,
+        "comment": "Bone Meal",
+        "mod_id": "minecraft",
+        "name": "dye",
+        "amount": 1,
+        "meta": 15
+      },
+      "requiresLid": false,
+      "time": 1200
+    },
+    {
+      "comment": "",
+      "item": null,
+      "input_fluid": {
+        "comment": "Ale",
+        "name": "fluid_booze_hopale_normal",
+        "amount": 40
+      },
+      "output_fluid": {
+        "comment": "Ale",
+        "name": "fluid_booze_hopale_poisoned",
         "amount": 40
       },
       "residue": null,
@@ -86,13 +150,13 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Apple Cider",
-        "name": "fluid_booze_apple_cider_potent",
+        "comment": "Ale",
+        "name": "fluid_booze_hopale_potent",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Apple Cider",
-        "name": "fluid_booze_apple_cider_poisoned",
+        "comment": "Ale",
+        "name": "fluid_booze_hopale_poisoned",
         "amount": 40
       },
       "residue": null,
@@ -103,13 +167,13 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Apple Cider",
-        "name": "fluid_booze_apple_cider_extended",
+        "comment": "Ale",
+        "name": "fluid_booze_hopale_extended",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Apple Cider",
-        "name": "fluid_booze_apple_cider_poisoned",
+        "comment": "Ale",
+        "name": "fluid_booze_hopale_poisoned",
         "amount": 40
       },
       "residue": null,
@@ -120,13 +184,13 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Silken Nectar",
-        "name": "fluid_booze_apple_cider_ethereal",
+        "comment": "Ale",
+        "name": "fluid_booze_hopale_hyperextended",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Apple Cider",
-        "name": "fluid_booze_apple_cider_poisoned",
+        "comment": "Ale",
+        "name": "fluid_booze_hopale_poisoned",
         "amount": 40
       },
       "residue": null,
@@ -137,13 +201,13 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Apple Cider",
-        "name": "fluid_booze_apple_cider_intoxicated",
+        "comment": "Ale",
+        "name": "fluid_booze_hopale_lager",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Apple Cider",
-        "name": "fluid_booze_apple_cider_poisoned",
+        "comment": "Ale",
+        "name": "fluid_booze_hopale_poisoned",
         "amount": 40
       },
       "residue": null,
@@ -154,13 +218,164 @@
       "comment": "",
       "item": null,
       "input_fluid": {
-        "comment": "Apple Cider",
-        "name": "fluid_booze_apple_cider_poisoned",
+        "comment": "Ale",
+        "name": "fluid_booze_hopale_intoxicated",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Apple Cider",
-        "name": "fluid_booze_apple_cider_poisoned",
+        "comment": "Ale",
+        "name": "fluid_booze_hopale_poisoned",
+        "amount": 40
+      },
+      "residue": null,
+      "requiresLid": null,
+      "time": 1200
+    },
+    {
+      "comment": "",
+      "item": null,
+      "input_fluid": {
+        "comment": "Ale",
+        "name": "fluid_booze_hopale_poisoned",
+        "amount": 40
+      },
+      "output_fluid": {
+        "comment": "Ale",
+        "name": "fluid_booze_hopale_poisoned",
+        "amount": 40
+      },
+      "residue": null,
+      "requiresLid": null,
+      "time": 1200
+    },
+    {
+      "comment": "",
+      "item": {
+        "ore": "yeastLager",
+        "comment": "",
+        "mod_id": null,
+        "name": null,
+        "amount": 1,
+        "meta": 32767
+      },
+      "input_fluid": {
+        "comment": "Ale Wort",
+        "name": "fluid_booze_hopale_young",
+        "amount": 40
+      },
+      "output_fluid": {
+        "comment": "Lager Wort",
+        "name": "fluid_booze_lager_young",
+        "amount": 40
+      },
+      "residue": {
+        "pomace": 0.0,
+        "ore": null,
+        "comment": "Bone Meal",
+        "mod_id": "minecraft",
+        "name": "dye",
+        "amount": 1,
+        "meta": 15
+      },
+      "requiresLid": false,
+      "time": 1200
+    },
+    {
+      "comment": "",
+      "item": null,
+      "input_fluid": {
+        "comment": "Lager",
+        "name": "fluid_booze_lager_normal",
+        "amount": 40
+      },
+      "output_fluid": {
+        "comment": "Lager",
+        "name": "fluid_booze_lager_poisoned",
+        "amount": 40
+      },
+      "residue": null,
+      "requiresLid": null,
+      "time": 1200
+    },
+    {
+      "comment": "",
+      "item": null,
+      "input_fluid": {
+        "comment": "Lager",
+        "name": "fluid_booze_lager_potent",
+        "amount": 40
+      },
+      "output_fluid": {
+        "comment": "Lager",
+        "name": "fluid_booze_lager_poisoned",
+        "amount": 40
+      },
+      "residue": null,
+      "requiresLid": null,
+      "time": 1200
+    },
+    {
+      "comment": "",
+      "item": null,
+      "input_fluid": {
+        "comment": "Lager",
+        "name": "fluid_booze_lager_extended",
+        "amount": 40
+      },
+      "output_fluid": {
+        "comment": "Lager",
+        "name": "fluid_booze_lager_poisoned",
+        "amount": 40
+      },
+      "residue": null,
+      "requiresLid": null,
+      "time": 1200
+    },
+    {
+      "comment": "",
+      "item": null,
+      "input_fluid": {
+        "comment": "Lager",
+        "name": "fluid_booze_lager_hyperextended",
+        "amount": 40
+      },
+      "output_fluid": {
+        "comment": "Lager",
+        "name": "fluid_booze_lager_poisoned",
+        "amount": 40
+      },
+      "residue": null,
+      "requiresLid": null,
+      "time": 1200
+    },
+    {
+      "comment": "",
+      "item": null,
+      "input_fluid": {
+        "comment": "Lager",
+        "name": "fluid_booze_lager_intoxicated",
+        "amount": 40
+      },
+      "output_fluid": {
+        "comment": "Lager",
+        "name": "fluid_booze_lager_poisoned",
+        "amount": 40
+      },
+      "residue": null,
+      "requiresLid": null,
+      "time": 1200
+    },
+    {
+      "comment": "",
+      "item": null,
+      "input_fluid": {
+        "comment": "Lager",
+        "name": "fluid_booze_lager_poisoned",
+        "amount": 40
+      },
+      "output_fluid": {
+        "comment": "Lager",
+        "name": "fluid_booze_lager_poisoned",
         "amount": 40
       },
       "residue": null,
@@ -263,6 +478,108 @@
       "output_fluid": {
         "comment": "Mead",
         "name": "fluid_booze_mead_poisoned",
+        "amount": 40
+      },
+      "residue": null,
+      "requiresLid": null,
+      "time": 1200
+    },
+    {
+      "comment": "",
+      "item": null,
+      "input_fluid": {
+        "comment": "Apple Cider",
+        "name": "fluid_booze_apple_cider_fermented",
+        "amount": 40
+      },
+      "output_fluid": {
+        "comment": "Apple Cider",
+        "name": "fluid_booze_apple_cider_poisoned",
+        "amount": 40
+      },
+      "residue": null,
+      "requiresLid": null,
+      "time": 1200
+    },
+    {
+      "comment": "",
+      "item": null,
+      "input_fluid": {
+        "comment": "Apple Cider",
+        "name": "fluid_booze_apple_cider_potent",
+        "amount": 40
+      },
+      "output_fluid": {
+        "comment": "Apple Cider",
+        "name": "fluid_booze_apple_cider_poisoned",
+        "amount": 40
+      },
+      "residue": null,
+      "requiresLid": null,
+      "time": 1200
+    },
+    {
+      "comment": "",
+      "item": null,
+      "input_fluid": {
+        "comment": "Apple Cider",
+        "name": "fluid_booze_apple_cider_extended",
+        "amount": 40
+      },
+      "output_fluid": {
+        "comment": "Apple Cider",
+        "name": "fluid_booze_apple_cider_poisoned",
+        "amount": 40
+      },
+      "residue": null,
+      "requiresLid": null,
+      "time": 1200
+    },
+    {
+      "comment": "",
+      "item": null,
+      "input_fluid": {
+        "comment": "Silken Nectar",
+        "name": "fluid_booze_apple_cider_ethereal",
+        "amount": 40
+      },
+      "output_fluid": {
+        "comment": "Apple Cider",
+        "name": "fluid_booze_apple_cider_poisoned",
+        "amount": 40
+      },
+      "residue": null,
+      "requiresLid": null,
+      "time": 1200
+    },
+    {
+      "comment": "",
+      "item": null,
+      "input_fluid": {
+        "comment": "Apple Cider",
+        "name": "fluid_booze_apple_cider_intoxicated",
+        "amount": 40
+      },
+      "output_fluid": {
+        "comment": "Apple Cider",
+        "name": "fluid_booze_apple_cider_poisoned",
+        "amount": 40
+      },
+      "residue": null,
+      "requiresLid": null,
+      "time": 1200
+    },
+    {
+      "comment": "",
+      "item": null,
+      "input_fluid": {
+        "comment": "Apple Cider",
+        "name": "fluid_booze_apple_cider_poisoned",
+        "amount": 40
+      },
+      "output_fluid": {
+        "comment": "Apple Cider",
+        "name": "fluid_booze_apple_cider_poisoned",
         "amount": 40
       },
       "residue": null,
@@ -721,323 +1038,6 @@
       "residue": null,
       "requiresLid": null,
       "time": 20
-    },
-    {
-      "comment": "",
-      "item": {
-        "ore": "cropWheat",
-        "comment": "",
-        "mod_id": null,
-        "name": null,
-        "amount": 1,
-        "meta": 32767
-      },
-      "input_fluid": {
-        "comment": "Water",
-        "name": "water",
-        "amount": 40
-      },
-      "output_fluid": {
-        "comment": "Ale Wort",
-        "name": "fluid_booze_hopale_young",
-        "amount": 40
-      },
-      "residue": {
-        "pomace": 0.3,
-        "ore": null,
-        "comment": "Bone Meal",
-        "mod_id": "minecraft",
-        "name": "dye",
-        "amount": 1,
-        "meta": 15
-      },
-      "requiresLid": false,
-      "time": 1200
-    },
-    {
-      "comment": "",
-      "item": {
-        "ore": "cropHops",
-        "comment": "",
-        "mod_id": null,
-        "name": null,
-        "amount": 1,
-        "meta": 32767
-      },
-      "input_fluid": {
-        "comment": "Ale Wort",
-        "name": "fluid_booze_hopale_young",
-        "amount": 40
-      },
-      "output_fluid": {
-        "comment": "Ale Wort",
-        "name": "fluid_booze_hopale_unhopped",
-        "amount": 40
-      },
-      "residue": {
-        "pomace": 0.0,
-        "ore": null,
-        "comment": "Bone Meal",
-        "mod_id": "minecraft",
-        "name": "dye",
-        "amount": 1,
-        "meta": 15
-      },
-      "requiresLid": false,
-      "time": 1200
-    },
-    {
-      "comment": "",
-      "item": null,
-      "input_fluid": {
-        "comment": "Ale",
-        "name": "fluid_booze_hopale_normal",
-        "amount": 40
-      },
-      "output_fluid": {
-        "comment": "Ale",
-        "name": "fluid_booze_hopale_poisoned",
-        "amount": 40
-      },
-      "residue": null,
-      "requiresLid": null,
-      "time": 1200
-    },
-    {
-      "comment": "",
-      "item": null,
-      "input_fluid": {
-        "comment": "Ale",
-        "name": "fluid_booze_hopale_potent",
-        "amount": 40
-      },
-      "output_fluid": {
-        "comment": "Ale",
-        "name": "fluid_booze_hopale_poisoned",
-        "amount": 40
-      },
-      "residue": null,
-      "requiresLid": null,
-      "time": 1200
-    },
-    {
-      "comment": "",
-      "item": null,
-      "input_fluid": {
-        "comment": "Ale",
-        "name": "fluid_booze_hopale_extended",
-        "amount": 40
-      },
-      "output_fluid": {
-        "comment": "Ale",
-        "name": "fluid_booze_hopale_poisoned",
-        "amount": 40
-      },
-      "residue": null,
-      "requiresLid": null,
-      "time": 1200
-    },
-    {
-      "comment": "",
-      "item": null,
-      "input_fluid": {
-        "comment": "Ale",
-        "name": "fluid_booze_hopale_hyperextended",
-        "amount": 40
-      },
-      "output_fluid": {
-        "comment": "Ale",
-        "name": "fluid_booze_hopale_poisoned",
-        "amount": 40
-      },
-      "residue": null,
-      "requiresLid": null,
-      "time": 1200
-    },
-    {
-      "comment": "",
-      "item": null,
-      "input_fluid": {
-        "comment": "Ale",
-        "name": "fluid_booze_hopale_lager",
-        "amount": 40
-      },
-      "output_fluid": {
-        "comment": "Ale",
-        "name": "fluid_booze_hopale_poisoned",
-        "amount": 40
-      },
-      "residue": null,
-      "requiresLid": null,
-      "time": 1200
-    },
-    {
-      "comment": "",
-      "item": null,
-      "input_fluid": {
-        "comment": "Ale",
-        "name": "fluid_booze_hopale_intoxicated",
-        "amount": 40
-      },
-      "output_fluid": {
-        "comment": "Ale",
-        "name": "fluid_booze_hopale_poisoned",
-        "amount": 40
-      },
-      "residue": null,
-      "requiresLid": null,
-      "time": 1200
-    },
-    {
-      "comment": "",
-      "item": null,
-      "input_fluid": {
-        "comment": "Ale",
-        "name": "fluid_booze_hopale_poisoned",
-        "amount": 40
-      },
-      "output_fluid": {
-        "comment": "Ale",
-        "name": "fluid_booze_hopale_poisoned",
-        "amount": 40
-      },
-      "residue": null,
-      "requiresLid": null,
-      "time": 1200
-    },
-    {
-      "comment": "",
-      "item": {
-        "ore": "yeastLager",
-        "comment": "",
-        "mod_id": null,
-        "name": null,
-        "amount": 1,
-        "meta": 32767
-      },
-      "input_fluid": {
-        "comment": "Ale Wort",
-        "name": "fluid_booze_hopale_young",
-        "amount": 40
-      },
-      "output_fluid": {
-        "comment": "Lager Wort",
-        "name": "fluid_booze_lager_young",
-        "amount": 40
-      },
-      "residue": {
-        "pomace": 0.0,
-        "ore": null,
-        "comment": "Bone Meal",
-        "mod_id": "minecraft",
-        "name": "dye",
-        "amount": 1,
-        "meta": 15
-      },
-      "requiresLid": false,
-      "time": 1200
-    },
-    {
-      "comment": "",
-      "item": null,
-      "input_fluid": {
-        "comment": "Lager",
-        "name": "fluid_booze_lager_normal",
-        "amount": 40
-      },
-      "output_fluid": {
-        "comment": "Lager",
-        "name": "fluid_booze_lager_poisoned",
-        "amount": 40
-      },
-      "residue": null,
-      "requiresLid": null,
-      "time": 1200
-    },
-    {
-      "comment": "",
-      "item": null,
-      "input_fluid": {
-        "comment": "Lager",
-        "name": "fluid_booze_lager_potent",
-        "amount": 40
-      },
-      "output_fluid": {
-        "comment": "Lager",
-        "name": "fluid_booze_lager_poisoned",
-        "amount": 40
-      },
-      "residue": null,
-      "requiresLid": null,
-      "time": 1200
-    },
-    {
-      "comment": "",
-      "item": null,
-      "input_fluid": {
-        "comment": "Lager",
-        "name": "fluid_booze_lager_extended",
-        "amount": 40
-      },
-      "output_fluid": {
-        "comment": "Lager",
-        "name": "fluid_booze_lager_poisoned",
-        "amount": 40
-      },
-      "residue": null,
-      "requiresLid": null,
-      "time": 1200
-    },
-    {
-      "comment": "",
-      "item": null,
-      "input_fluid": {
-        "comment": "Lager",
-        "name": "fluid_booze_lager_hyperextended",
-        "amount": 40
-      },
-      "output_fluid": {
-        "comment": "Lager",
-        "name": "fluid_booze_lager_poisoned",
-        "amount": 40
-      },
-      "residue": null,
-      "requiresLid": null,
-      "time": 1200
-    },
-    {
-      "comment": "",
-      "item": null,
-      "input_fluid": {
-        "comment": "Lager",
-        "name": "fluid_booze_lager_intoxicated",
-        "amount": 40
-      },
-      "output_fluid": {
-        "comment": "Lager",
-        "name": "fluid_booze_lager_poisoned",
-        "amount": 40
-      },
-      "residue": null,
-      "requiresLid": null,
-      "time": 1200
-    },
-    {
-      "comment": "",
-      "item": null,
-      "input_fluid": {
-        "comment": "Lager",
-        "name": "fluid_booze_lager_poisoned",
-        "amount": 40
-      },
-      "output_fluid": {
-        "comment": "Lager",
-        "name": "fluid_booze_lager_poisoned",
-        "amount": 40
-      },
-      "residue": null,
-      "requiresLid": null,
-      "time": 1200
     },
     {
       "comment": "",
