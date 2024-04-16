@@ -9,6 +9,10 @@ Total Mods: 306
 
 - Add back 4 missing ingot from MWC
 - Fix Black Quartz not being generated
+- Fix a bug that causes the Journeymap waypoint not to show
+- Fix some rendering problem
+- Optimize some configs to improve player game experience
+- Adjust some config settings for fixing bugs
 
 ## 17.0
 
