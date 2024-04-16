@@ -127,7 +127,7 @@
                   "nbt": {
                     "lvl": {
                       "nbtType": "int",
-                      "nbt": 5
+                      "nbt": 3
                     },
                     "id": {
                       "nbtType": "int",
@@ -140,7 +140,7 @@
                   "nbt": {
                     "lvl": {
                       "nbtType": "int",
-                      "nbt": 15
+                      "nbt": 6
                     },
                     "id": {
                       "nbtType": "int",
@@ -152,7 +152,7 @@
             },
             "Unbreakable": {
               "nbtType": "int",
-              "nbt": 1
+              "nbt": 0
             },
             "HideFlags": {
               "nbtType": "int",
@@ -330,7 +330,7 @@
                   "nbt": {
                     "lvl": {
                       "nbtType": "int",
-                      "nbt": 10
+                      "nbt": 4
                     },
                     "id": {
                       "nbtType": "int",
@@ -343,7 +343,7 @@
                   "nbt": {
                     "lvl": {
                       "nbtType": "int",
-                      "nbt": 15
+                      "nbt": 6
                     },
                     "id": {
                       "nbtType": "int",
@@ -355,7 +355,7 @@
             },
             "Unbreakable": {
               "nbtType": "int",
-              "nbt": 1
+              "nbt": 0
             },
             "HideFlags": {
               "nbtType": "int",

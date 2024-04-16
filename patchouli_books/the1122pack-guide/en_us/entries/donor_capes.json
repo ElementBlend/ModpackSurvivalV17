@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "link",
-            "text": "If you want to support me (modpack author, Jon), and the modpack development, please consider donating by clicking the buttom bellow.$(br2)Donating $10 or more will automatically grant you these awesome looking custom in-game donor cape and Elytra!",
+            "text": "If you want to support me (modpack author, Jon), and the modpack development, please consider donating by clicking the buttom bellow.$(br2)Donating more than $10 will automatically grant you these awesome looking custom in-game donor cape and Elytra!",
 			"url": "https://bit.ly/The-1-12-2-Pack-Donate",
 			"link_text": "Support My Work"
         },
@@ -14,7 +14,7 @@
             "type": "image",
 			"images": ["the1122pack:textures/book/donor_cape.png","the1122pack:textures/book/donor_elytra.png"],
 			"border": true,
-            "text": "Custom donor cape and Elytra!$(br)Thank you for the support."
+            "text": "Custom donor cape and Elytra!$(br)Thank you for being awesome."
         }
     ]
 }

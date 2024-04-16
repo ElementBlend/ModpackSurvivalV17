@@ -10,7 +10,7 @@
         },
 		{
             "type": "link",
-            "text": "In order to get to the issue tracker page, please click the link bellow.$(br2)Please make sure you are signed up to GitHub in order to post new issues.$(br2) $(br2)           ⇩ ⇩ ⇩",
+            "text": "In order to get to the issue tracker page, please click the link bellow.$(br2)Please make sure you are registered to GitHub in order to post new issues.$(br2) $(br2)           ⇩ ⇩ ⇩",
 			"url": "https://bit.ly/The-1-12-2-Pack-Issues",
 			"link_text": "Issue Tracker"
         }

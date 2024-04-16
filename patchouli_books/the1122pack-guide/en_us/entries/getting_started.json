@@ -7,7 +7,7 @@
     "pages": [
 	    {
         "type": "text",
-        "text": "• Along with this book, you will receive the Akashic Tome, preloaded with all of the mod guide books. Open and choose a guide book to read, then simply point it at the air and left-click to reset!"
+        "text": "• Please note that the current version of the modpack is still early, and you might encounter $(k)problems$() and issues.$(br)Please make sure to report any issue you encounter,$(br)with game logs, to $(l:getting_support)get support$().$(br)• Along with this book, you will receive the Akashic Tome, preloaded with all of the mod guide books. Open and choose a guide book to read, then simply point it at the air$(br)  and left-click to reset!"
 		},
         {
             "type": "image",
