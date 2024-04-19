@@ -151,7 +151,7 @@
     "stripTranslationFormatting": false,
     "stripExtraGuiElements": false,
     "renderTooltips": true,
-    "configKeyCode": 41
+    "configKeyCode": 0
   },
   "displaySettings": {
     "presenceData": {
@@ -174,8 +174,8 @@
     },
     "dynamicIcons": {
       "SamLam140330": "https://mc-heads.net/avatar/3ca3e1330b0e4ffcb405da74a3e2f985",
-      "default": "https://via.placeholder.com/256.png",
-      "mod.elementblend.com": "https://api.mcsrvstat.us/icon/mod.elementblend.com"
+      "mod.elementblend.com": "https://api.mcsrvstat.us/icon/mod.elementblend.com",
+      "default": "https://via.placeholder.com/256.png"
     },
     "dynamicVariables": {
       "default": "Example Text",

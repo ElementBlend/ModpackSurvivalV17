@@ -3,7 +3,7 @@
 ## 17.1 - RC1
 
 Forge Version: 1.12.2-14.23.5.2860  
-Total Mods: 278
+Total Mods: 284
 
 **Changes**
 
@@ -13,6 +13,15 @@ Total Mods: 278
 - Fix some rendering problem
 - Optimize some configs to improve player game experience
 - Adjust some config settings for fixing bugs
+
+**Added Mods**
+
+- HelpFixer
+- Litematica
+- Malilib
+- Oauth
+- RandomThing
+- TinkersToolLeveling
 
 **Updated Mods**
 
