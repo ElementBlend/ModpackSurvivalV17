@@ -3,24 +3,29 @@
 ## 17.1 - RC1
 
 Forge Version: 1.12.2-14.23.5.2860  
-Total Mods: 284
+Total Mods: 286
 
 **Changes**
 
 - Add back 4 missing ingot from MWC
+- Add some recipes for MWC
+- Add "time in a bottle" by adding RandomThing mod
 - Fix Black Quartz not being generated
 - Fix a bug that causes the Journeymap waypoint not to show
+- Fix reauth not able to use by replacing it using oauth
 - Fix some rendering problem
 - Optimize some configs to improve player game experience
 - Adjust some config settings for fixing bugs
 
 **Added Mods**
 
+- Chameleon
 - HelpFixer
 - Litematica
 - Malilib
 - Oauth
 - RandomThing
+- StorageDrawers
 - TinkersToolLeveling
 
 **Updated Mods**
